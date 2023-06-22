@@ -1,0 +1,49 @@
+
+SYSTEM
+
+
+help | Brings up this menu
+about | about Acrux
+cs | Clears the screen
+time | Shows the date/time
+ex | Exit Acrux
+app <file name> | Opens programs
+
+var -*args*:
+    -c <name>=<value>| Create a variable
+    -a <name>=<value>| Ask the user to create a value for a variable
+    -li | List all variables
+    -cv | clear all variables
+
+sound -*args*:
+    -play | Play sound
+    -rec <file name> | Record and save sound
+
+user -*args*:
+    -new <username> / <password>
+
+
+EXPLORER
+
+
+cd *folder name* | Opens folders
+cd.. | Goes back a folder
+
+del *file/folder name* | Deletes files/folders
+
+dir | View files/folders in directory
+
+cr -*args*:
+    -tf | Makes a file
+    -f | Makes a folder
+
+op -*args*:
+    -tf | Opens text files
+
+
+ULTRA-VARIABLES
+
+
+.lcmd | The last command you typed
+.out | Output of the last calculation you did
+.user | User logged in

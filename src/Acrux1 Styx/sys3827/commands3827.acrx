@@ -1,0 +1,28 @@
+
+SYSTEM:
+
+
+help | Brings up this menu
+about | about Acrux
+cs | Clears the screen
+time | Shows the date/time
+app.<app name> | Opens programs (app.about to check apps)
+ex | Exit Acrux
+
+
+EXPLORER:
+
+
+cd <directory> | Go into directories
+cd.. | Goes back a folder
+
+del <file/folder name> | Deletes files/folders
+
+dir | View files/folders in directory
+
+	-tf - Makes a file
+	-f - Makes a folder
+
+op -*args*
+	-tf - Opens text files
+	-p - Opens programs (Only in Acrux2)
