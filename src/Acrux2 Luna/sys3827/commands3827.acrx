@@ -19,9 +19,6 @@ sound -*args*:
     -play | Play sound
     -rec <file name> | Record and save sound
 
-user -*args*:
-    -new <username> / <password>
-
 
 EXPLORER
 

@@ -1,0 +1,6 @@
+var -a x=Enter a number: 
+var -a y=Enter another number: 
+
+@<x>+<y>
+
+pr <x>+<y>=.out
