@@ -3,6 +3,15 @@ A simple programming language writtin in python.
 
 Created by 90 Computer Studios / Mechinsam / Zohaib Jafar
 
+# Running from source
+
+If you are running Acrux from source, or are compiling it, make sure to install the following libraries/modules:
+- colorama
+- pyaudio
+- wave
+
+*Requires Python 3.7 or above*
+
 # UPDATE NOTES/PATCHES:
 -------------------------------------
 
